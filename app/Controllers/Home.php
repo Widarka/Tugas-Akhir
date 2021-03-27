@@ -7,6 +7,11 @@ class Home extends BaseController
 		return view('dashboard');
 	}
 
+	public function biodatauser()
+	{
+		return view('biodata_user');
+	}
+
 	//--------------------------------------------------------------------
 
 }

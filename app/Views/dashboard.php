@@ -100,9 +100,8 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="https://github.com/mdbootstrap/bootstrap-material-design" class="nav-link border border-light rounded waves-effect"
-              target="_blank">
-              <i class="fab fa-github mr-2"></i>MDB GitHub
+            <a href="/Formbiodata" class="nav-link border border-light rounded waves-effect"
+              target="_blank"></i>User
             </a>
           </li>
         </ul>
