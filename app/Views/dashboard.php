@@ -100,8 +100,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="/Formbiodata" class="nav-link border border-light rounded waves-effect"
-              target="_blank"></i>User
+            <a href="/Formbiodata" class="nav-link border border-light rounded waves-effect"></i>User
             </a>
           </li>
         </ul>

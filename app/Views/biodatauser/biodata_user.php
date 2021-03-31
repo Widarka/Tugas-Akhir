@@ -27,6 +27,8 @@
 	<link rel="stylesheet" type="text/css" href="ContactFrom_v14/css/util.css">
 	<link rel="stylesheet" type="text/css" href="ContactFrom_v14/css/main.css">
 <!--===============================================================================================-->
+<link rel="shortcut icon" href="favicon.ico?v=1" type="image/x-icon">
+
 </head>
 <body>
 
@@ -35,34 +37,38 @@
 		<div class="wrap-contact100">
 			<form class="contact100-form validate-form">
 				<span class="contact100-form-title">
-					Contact Us
+				
+					Biodata Diri
 				</span>
-
-				<label class="label-input100" for="first-name">Username *</label>
+				
+				<label class="label-input100" for="first-name">Username, 
+					</label>
 				<div class="wrap-input100 rs1 validate-input">
-					<input id="first-name" class="input100" type="text" name="first-name" placeholder="First name">
+					<input id="first-name" class="input100" type="text" name="first-name" placeholder="First name"><?php foreach ($users as $us) :?>
+				<?= $us['username'];?>	
+				<?php endforeach; ?>
 					<span class="focus-input100"></span>
 				</div>
-				<div class="wrap-input100 rs1 validate-input">
+				<!-- <div class="wrap-input100 rs1 validate-input">
 					<input class="input100" type="text" name="last-name" placeholder="Last name">
 					<span class="focus-input100"></span>
-				</div>
+				</div> -->
 
-				<label class="label-input100" for="email">Email Address *</label>
+				<label class="label-input100" for="email">Email Address</label>
 				<div class="wrap-input100 validate-input">
-					<input id="email" class="input100" type="text" name="email" placeholder="Eg. example@email.com">
+					<input id="email" class="input100" type="text" name="email" placeholder="Masukkan Email Address">
 					<span class="focus-input100"></span>
 				</div>
 
 				<label class="label-input100" for="phone">Phone Number</label>
 				<div class="wrap-input100">
-					<input id="phone" class="input100" type="text" name="phone" placeholder="Eg. +1 800 000000">
+					<input id="phone" class="input100" type="text" name="phone" placeholder="Masukkan nomor Handphone">
 					<span class="focus-input100"></span>
 				</div>
 
-				<label class="label-input100" for="message">Message *</label>
+				<label class="label-input100" for="message">Alamat Rumah</label>
 				<div class="wrap-input100 validate-input">
-					<textarea id="message" class="input100" name="message" placeholder="Please enter your comments..."></textarea>
+					<textarea id="message" class="input100" name="message" placeholder="Masukkan alamat rumah"></textarea>
 					<span class="focus-input100"></span>
 				</div>
 
